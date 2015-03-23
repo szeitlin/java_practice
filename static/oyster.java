@@ -9,5 +9,13 @@ public class oyster {
 		members ++;
 		System.out.printf("Constructor for %s %s, members in the hot girl club: %d\n", first, last, members);
 	}
-	
+	public String getFirst(){
+		return first;
+	}
+	public String getLast(){
+		return last;
+	}
+	public static int getMembers(){
+		return members;
+	}
 }
