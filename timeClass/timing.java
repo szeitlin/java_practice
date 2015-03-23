@@ -12,4 +12,8 @@ public class timing {
 	public String toMilitary() {
 		return String.format("%02d:%02d:%02d", hour, minute, second);
 	}
+	
+	public String toCivilian() {
+		return String.format("%d:%02d:%02d", ((hour==0 | hour==12) ? 12: hour%12), minute, second, ((hour<12)? "AM": "PM"));
+	}
 }
