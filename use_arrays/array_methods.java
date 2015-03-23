@@ -1,0 +1,15 @@
+class blah{
+	public static void main(String[] args){
+		int bucky[]={3,4,5,6,7};
+		add_five(bucky);
+		
+		for(int y:bucky)
+			System.out.println(y);
+	}
+	
+	public static void add_five(int x[]){
+		for (int counter=0; counter<x.length;counter++)
+			x[counter]+=5;
+		
+	}
+}
