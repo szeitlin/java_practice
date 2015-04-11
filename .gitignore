@@ -8,3 +8,7 @@
 .prefs
 .txt
 .metadata
+.idea/
+out/
+.docx
+.settings
